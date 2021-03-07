@@ -1,0 +1,7 @@
+.label {
+    -fx-text-fill: blue;
+}
+
+.boton_empezar_partida {
+    -fx-background-color: red;
+}

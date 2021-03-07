@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<SplitPane dividerPositions="0.5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="909.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <items>
+        <SplitPane minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL">
+            <items>
+                <GridPane gridLinesVisible="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="584.0" prefWidth="584.0" style="-fx-border-color: black; -fx-border-width: 2px;">
+                    <columnConstraints>
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints prefHeight="30.0" vgrow="ALWAYS" />
+                        <RowConstraints prefHeight="30.0" vgrow="ALWAYS" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+                    </rowConstraints>
+                    <children>
+                        <Button id="b0" fx:id="b0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Marcar" prefHeight="190.0" prefWidth="310.0">
+                            <font>
+                                <Font size="70.0" />
+                            </font></Button>
+                        <Button id="b4" fx:id="b4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Marcar" prefHeight="190.0" prefWidth="310.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                            <font>
+                                <Font size="70.0" />
+                            </font></Button>
+                        <Button id="b3" fx:id="b3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" mnemonicParsing="false" onAction="#Marcar" prefHeight="190.0" prefWidth="310.0" GridPane.rowIndex="1">
+                            <font>
+                                <Font size="70.0" />
+                            </font></Button>
+                        <Button id="b1" fx:id="b1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Marcar" prefHeight="190.0" prefWidth="310.0" GridPane.columnIndex="1">
+                            <font>
+                                <Font size="70.0" />
+                            </font></Button>
+                        <Button id="b6" fx:id="b6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Marcar" prefHeight="190.0" prefWidth="310.0" GridPane.rowIndex="2">
+                            <font>
+                                <Font size="70.0" />
+                            </font></Button>
+                        <Button id="b7" fx:id="b7" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Marcar" prefHeight="190.0" prefWidth="310.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                            <font>
+                                <Font size="70.0" />
+                            </font></Button>
+                        <Button id="b2" fx:id="b2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Marcar" prefHeight="190.0" prefWidth="310.0" GridPane.columnIndex="2">
+                            <font>
+                                <Font size="70.0" />
+                            </font></Button>
+                        <Button id="b5" fx:id="b5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Marcar" prefHeight="190.0" prefWidth="310.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                            <font>
+                                <Font size="70.0" />
+                            </font></Button>
+                        <Button id="b8" fx:id="b8" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Marcar" prefHeight="190.0" prefWidth="310.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                            <font>
+                                <Font size="70.0" />
+                            </font></Button>
+                    </children>
+                </GridPane>
+            </items>
+        </SplitPane>
+        <SplitPane dividerPositions="0.5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" orientation="VERTICAL" prefHeight="546.0">
+            <items>
+                <Button id="empezar_partida" fx:id="boton_empezar_partida" layoutX="235.0" layoutY="19.0" mnemonicParsing="false" onAction="#Empezar_Partida" text="START">
+
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" left="50.0" right="50.0" top="10.0" />
+               </padding></Button>
+            </items>
+        </SplitPane>
+    </items>
+</SplitPane>
